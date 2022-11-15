@@ -2,22 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="APIs-Microsservice" />
+        <module name="course" />
+        <module name="discovery" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="course" target="17" />
-      <module name="discovery" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="course" options="-parameters" />
-      <module name="discovery" options="-parameters" />
+      <module name="course" options="" />
+      <module name="discovery" options="" />
     </option>
   </component>
 </project>
