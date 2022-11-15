@@ -13,6 +13,7 @@
         <module>discovery</module>
         <module>course</module>
         <module>gateway</module>
+        <module>auth</module>
     </modules>
 
     <properties>
@@ -28,6 +29,7 @@
         <spring.boot.lombok.version>1.18.24</spring.boot.lombok.version>
         <!--EXTERNAL DEPENDENCE-->
         <model-mapper.version>3.1.0</model-mapper.version>
+        <nimbus-jose.version>9.25.6</nimbus-jose.version>
     </properties>
 
     <dependencies>
@@ -41,10 +43,16 @@
             <artifactId>lombok</artifactId>
             <version>${spring.boot.lombok.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
             <version>${model-mapper.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbus-jose.version}</version>
         </dependency>
     </dependencies>
 

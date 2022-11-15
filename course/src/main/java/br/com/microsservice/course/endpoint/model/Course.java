@@ -28,8 +28,8 @@ public class Course implements Serializable {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @NotNull(message = "This field cannot be empty")
-    @Column(unique = true)
+    @NotNull(message = "This field 'name' cannot be empty")
+    @Column(unique = true, nullable = false)
     private String name;
 
     public Course update(CourseDTO courseDTO) {

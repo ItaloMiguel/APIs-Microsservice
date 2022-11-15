@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 public class CourseDTO {
 
-    @NotNull(message = "This field cannot be empty")
-    @Column(unique = true)
+    @NotNull(message = "This field 'name' cannot be empty")
+    @Column(unique = true, nullable = false)
     private String name;
 }
