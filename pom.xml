@@ -12,32 +12,39 @@
     <modules>
         <module>discovery</module>
         <module>course</module>
+        <module>gateway</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--MAVEN CONFIG-->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
-        <spring.boot.dependecies.version>2.5.7</spring.boot.dependecies.version>
-        <spring.cloud-version>2020.0.3</spring.cloud-version>
+        <spring.boot.maven.plugin.version>3.10.1</spring.boot.maven.plugin.version>
+        <!--SPRING CLOUD VERSION CONFIG-->
+        <spring.cloud-version>2021.0.5</spring.cloud-version>
+        <!--SPRING BOOT VERSION CONFIG-->
+        <spring.boot.dependecies.version>2.7.5</spring.boot.dependecies.version>
+        <spring.boot.lombok.version>1.18.24</spring.boot.lombok.version>
+        <!--EXTERNAL DEPENDENCE-->
+        <model-mapper.version>3.1.0</model-mapper.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>2.7.5</version>
+            <version>${spring.boot.dependecies.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>${spring.boot.lombok.version}</version>
         </dependency>
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
-            <version>3.1.0</version>
+            <version>${model-mapper.version}</version>
         </dependency>
     </dependencies>
 

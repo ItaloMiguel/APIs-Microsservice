@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="course" />
         <module name="discovery" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
   </component>
