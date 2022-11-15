@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42e99d36-a0f9-4bc6-9d14-e74f5527eae6" name="Changes" comment="&quot;Organizando os projetos em modulos para reaproveitamento de código&quot;">
+    <list default="true" id="42e99d36-a0f9-4bc6-9d14-e74f5527eae6" name="Changes" comment="&quot;Conectando no discovery eureka e fazendo CRUD&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/course/src/main/java/br/com/microsservice/course/CourseApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/course/src/main/java/br/com/microsservice/course/endpoint/config/ModelMapperConfig.java" afterDir="false" />
@@ -16,6 +22,17 @@
       <change afterPath="$PROJECT_DIR$/course/src/main/java/br/com/microsservice/course/endpoint/service/exception/MyObjectNotFoundException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/course/src/main/java/br/com/microsservice/course/endpoint/service/impl/CourseServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/course/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/CourseApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/config/ModelMapperConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/model/Course$CourseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/model/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/model/dto/CourseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/repository/CourseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/service/exception/MyObjectNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/target/classes/br/com/microsservice/course/endpoint/service/impl/CourseServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -166,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668466302547</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Conectando no discovery eureka e fazendo CRUD&quot;">
+      <created>1668484052909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668484052909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Organizando os projetos em modulos para reaproveitamento de código&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Organizando os projetos em modulos para reaproveitamento de código&quot;" />
+    <MESSAGE value="&quot;Conectando no discovery eureka e fazendo CRUD&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Conectando no discovery eureka e fazendo CRUD&quot;" />
   </component>
 </project>
