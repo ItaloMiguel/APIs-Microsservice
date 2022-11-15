@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42e99d36-a0f9-4bc6-9d14-e74f5527eae6" name="Changes" comment="&quot;Conectando no discovery eureka e fazendo CRUD&quot;">
-      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/br/com/microsservice/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="42e99d36-a0f9-4bc6-9d14-e74f5527eae6" name="Changes" comment="&quot;Modulo gateway inplementado. Refatorando os pom de todos modulos&quot;">
+      <change afterPath="$PROJECT_DIR$/course/src/main/java/br/com/microsservice/course/endpoint/controller/exceptions/ResourceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/src/main/java/br/com/microsservice/course/endpoint/controller/exceptions/StardardError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,8 +136,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GatewayApplication" />
-        <item itemvalue="Application.DiscoveryApplication" />
         <item itemvalue="Application.CourseApplication" />
+        <item itemvalue="Application.DiscoveryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668484063906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;Modulo gateway inplementado. Refatorando os pom de todos modulos&quot;">
+      <created>1668541422830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668541422830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -217,6 +216,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Organizando os projetos em modulos para reaproveitamento de código&quot;" />
     <MESSAGE value="&quot;Conectando no discovery eureka e fazendo CRUD&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Conectando no discovery eureka e fazendo CRUD&quot;" />
+    <MESSAGE value="&quot;Modulo gateway inplementado. Refatorando os pom de todos modulos&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Modulo gateway inplementado. Refatorando os pom de todos modulos&quot;" />
   </component>
 </project>
